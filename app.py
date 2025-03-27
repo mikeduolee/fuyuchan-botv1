@@ -29,7 +29,7 @@ def handle_message(event):
         TextSendMessage(text=reply)
     )
 
-@app.route("/", methods=["GET"])
+@app.route("/", methods=["POST"])
 def index():
     return "FuYu-chan is running!"
 
