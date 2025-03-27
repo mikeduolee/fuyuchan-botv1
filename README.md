@@ -1,1 +1,3 @@
-# fuyuchan-botv1
+# FuYu-chan Bot
+
+LINE webhook bot powered by Flask.
