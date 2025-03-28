@@ -47,7 +47,7 @@ def handle_message(event):
         name, meaning, spiritual_guide, action_guide, moon_phase = get_daily_rune()
         line_bot_api.reply_message(
             event.reply_token,
-            TextSendMessage(text=f"🔮 盧恩符文：{name}\n📜 意義：{meaning}\n🔁 正逆位：{'正位' if is_upright else '逆位'}")
+            TextSendMessage(text=f"🔮 盧恩符文：{name}\n📜 意義:{meaning}\n🔁 正逆位:{'正位' if is_upright else '逆位'}")
 意義：{meaning}
 
 🌙 月相：{moon_phase}
