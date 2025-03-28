@@ -1,3 +1,3 @@
-# FuYu-chan Bot
+# FuYu-chan Bot v6
 
-LINE webhook bot powered by Flask.
+LINE Bot with webhook integration and rune card draw feature.
